@@ -1,0 +1,36 @@
+.login-form {
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 0 auto;
+}
+
+.login-form input {
+    padding: 7px;
+    font-weight: 500;
+    outline-color: #890620;
+}
+
+.login-form button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #890620;
+    padding: 7px 12px;
+    color: #fff;
+    height: 40px;
+    margin-top: 12px;
+}
+
+.error-msg{
+    color: red;
+    font-size: 12px;
+}
+
+.login-form button:active {
+    background: #570415;
+}

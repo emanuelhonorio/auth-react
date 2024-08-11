@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+td, th {
+    padding: 4px;
+}
+
+.permission {
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 22px;
+    background-color: #3EC300;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.permission:not(:last-child) {
+    margin-right: 4px;
+}
+
+.permission::first-letter {
+    text-transform: uppercase;
+}
+
+.permission.ROLE_ADMIN {
+    background-color: #FF1D15;
+}
